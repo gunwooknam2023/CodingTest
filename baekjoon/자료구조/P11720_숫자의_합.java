@@ -2,7 +2,7 @@ package 자료구조;
 
 import java.util.*;
 
-public class P11720_숫자의_합_구하기 {
+public class P11720_숫자의_합 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
