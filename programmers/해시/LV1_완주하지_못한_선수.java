@@ -2,7 +2,7 @@ package 해시;
 
 import java.util.*;
 
-class 완주하지_못한_선수 {
+class LV1_완주하지_못한_선수 {
     public String solution(String[] participant, String[] completion) {
         String answer = "";
         Map<String, Integer> map = new HashMap<>();
