@@ -2,7 +2,7 @@ package 정렬;
 
 import java.util.Arrays;
 
-public class LV_2_H_Index {
+public class LV2_H_Index {
     public int solution(int[] citations) {
         Arrays.sort(citations);
         int n = citations.length;

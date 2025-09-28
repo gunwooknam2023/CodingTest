@@ -2,7 +2,7 @@ package 정렬;
 
 import java.util.Arrays;
 
-public class LV_2_가장_큰_수 {
+public class LV2_가장_큰_수 {
     public String solution(int[] numbers) {
         String answer = "";
         String[] arr = new String[numbers.length];

@@ -2,7 +2,7 @@ package 스택_큐;
 
 import java.util.Stack;
 
-public class LV_2_주식가격 {
+public class LV2_주식가격 {
     public int[] solution(int[] prices) {
         Stack<Integer> stack = new Stack<>();
         int[] answer = new int[prices.length];
