@@ -1,4 +1,4 @@
-package 해시;
+package 해시.실버;
 
 import java.io.BufferedReader;
 import java.io.IOException;

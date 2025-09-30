@@ -1,11 +1,9 @@
-package 정렬;
+package 정렬.브론즈;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class P2309_일곱_난쟁이 {
     public static void main(String[] args) throws IOException {

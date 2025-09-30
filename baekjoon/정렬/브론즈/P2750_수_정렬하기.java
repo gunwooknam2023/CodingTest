@@ -1,4 +1,4 @@
-package 정렬;
+package 정렬.브론즈;
 
 import java.util.Scanner;
 

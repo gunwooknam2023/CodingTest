@@ -1,32 +1,24 @@
-package 정렬;
+package 정렬.실버;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.Arrays;
 
-public class P1181_단어_정렬 {
+public class P2751_수_정렬하기_2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
-        Set<String> hs = new HashSet<>();
+        int A[] = new int[N];
 
         for(int i=0; i<N; i++){
-            hs.add(br.readLine());
+            A[i] = Integer.parseInt(br.readLine());
         }
 
-        List<String> list = new ArrayList<>(hs);
-
-        Collections.sort(list, (a, b) ->{
-            if(a.length() == b.length()){
-                return a.compareTo(b);
-            } else{
-                return a.length() - b.length();
-            }
-        });
+        Arrays.sort(A);
 
         StringBuilder sb = new StringBuilder();
-        for(String a : list){
+        for(int a : A){
             sb.append(a).append('\n');
         }
 
