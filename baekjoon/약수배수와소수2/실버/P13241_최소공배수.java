@@ -1,4 +1,4 @@
-package 약수배수와소수2.브론즈;
+package 약수배수와소수2.실버;
 
 import java.io.BufferedReader;
 import java.io.IOException;
