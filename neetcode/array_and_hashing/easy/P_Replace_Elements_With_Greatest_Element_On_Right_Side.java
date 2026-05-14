@@ -1,4 +1,4 @@
-package array.easy;
+package array_and_hashing.easy;
 
 public class P_Replace_Elements_With_Greatest_Element_On_Right_Side {
     class Solution {

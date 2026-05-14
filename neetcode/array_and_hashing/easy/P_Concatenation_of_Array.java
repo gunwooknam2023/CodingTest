@@ -1,4 +1,4 @@
-package array.easy;
+package array_and_hashing.easy;
 
 public class P_Concatenation_of_Array {
     class Solution {

@@ -1,4 +1,4 @@
-package array.easy;
+package array_and_hashing.easy;
 
 public class P_Number_of_Senior_Citizens {
     class Solution {

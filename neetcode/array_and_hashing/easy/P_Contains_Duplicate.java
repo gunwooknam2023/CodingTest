@@ -1,4 +1,4 @@
-package array.easy;
+package array_and_hashing.easy;
 
 import java.util.HashSet;
 import java.util.Set;
